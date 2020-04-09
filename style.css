@@ -1,3 +1,39 @@
 h1, p {
   font-family: Lato;
 }
+
+ul {
+  list-style-type:none;
+  display:flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+button {
+  background-color: #333;
+  border: none;
+}
+
+li button {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li button:hover {
+  background-color: #4CAF50;
+}
+
+button:focus {
+  background-color: #4CAF50;
+}
+
+button:active {
+  border-color: #333
+}
