@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import NavBar from './Components/NavBar';
+import Bottum from './Components/Bottum'
+import Birds from './Components/Birds'
+import Controller from './Components/Controller'
 import './style.css';
 
 class App extends Component {
@@ -14,7 +17,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar/>
+        <Controller/>
+        <Bottum/>
       </div>
     );
   }
