@@ -49,3 +49,17 @@ button:focus {
 button:active {
   border-color: #333
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#displayName {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 30px;
+}

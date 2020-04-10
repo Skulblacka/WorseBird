@@ -6,10 +6,12 @@ class Birds extends Component{
   }
 
   render(){
-    return (
-      <img src='https://download.ams.birds.cornell.edu/api/v1/asset/202984001/900'/>
-    )
+    return null
   }
+  //   return (
+  //     <img src='https://download.ams.birds.cornell.edu/api/v1/asset/202984001/900'/>
+  //   )
+  // }
 }
 
 export default Birds
