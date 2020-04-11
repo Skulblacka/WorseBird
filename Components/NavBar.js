@@ -30,8 +30,8 @@ class NavBar extends React.Component {
   render (){
     return (
       <div>
-        <ul><a>WorseBird</a>
-          
+        <ul>
+          <a id='displayName'>WorseBird</a>
           <li><button onClick={this.changeImage('DAY')}>Worse Bird of the Day</button></li>
           <li><button onClick={this.changeImage('MONTH')}>Worse Bird of the Month</button></li>
           <li><button onClick={this.changeImage('YEAR')}>Worse Bird of the Year</button></li>
